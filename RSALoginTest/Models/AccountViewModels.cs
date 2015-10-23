@@ -31,6 +31,7 @@ namespace RSALoginTest.Models
         [Required]
         [Display(Name = "代码")]
         public string Code { get; set; }
+
         public string ReturnUrl { get; set; }
 
         [Display(Name = "记住此浏览器?")]

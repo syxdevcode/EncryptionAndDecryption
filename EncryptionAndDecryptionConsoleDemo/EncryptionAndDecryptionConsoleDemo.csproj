@@ -48,6 +48,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EncryptionAndDecryption\EncryptionAndDecryptionLibary.csproj">
+      <Project>{e1735de3-eaaf-4d3a-983e-d4fc4d301019}</Project>
+      <Name>EncryptionAndDecryptionLibary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

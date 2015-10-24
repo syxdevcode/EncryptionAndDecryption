@@ -132,7 +132,6 @@ namespace EncryptionAndDecryptionConsoleDemo
             
             #endregion
 
-
             Console.ReadLine();
         }
     }
